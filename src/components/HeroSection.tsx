@@ -1,7 +1,8 @@
 import { motion, useScroll, useTransform, useMotionValue, useReducedMotion } from "framer-motion";
 import { useRef, useEffect, useState, useCallback, useMemo } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Download } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
+import cvFile from "@/assets/Currículo - Brenno Henrique.pdf";
 
 const FloatingParticle = ({ delay, x, size }: { delay: number; x: number; size: number }) => (
   <motion.div
@@ -311,6 +312,20 @@ const HeroSection = () => {
             className="focus-ring motion-smooth glass-highlight inline-flex w-full sm:w-[220px] items-center justify-center gap-2 px-7 sm:px-8 py-3.5 rounded-full border border-primary/25 bg-secondary/25 text-foreground/90 hover:text-foreground hover:border-primary/35 transition-colors"
           >
             Ver Projetos
+          </motion.a>
+
+          <motion.a
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1.0, ease: "easeOut" }}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.97 }}
+            href={cvFile}
+            download="Curriculo-Brenno-Henrique.pdf"
+            className="focus-ring motion-smooth inline-flex w-full sm:w-[220px] items-center justify-center gap-2 px-7 sm:px-8 py-3.5 rounded-full border border-primary/30 bg-primary/10 text-primary hover:bg-primary/15 hover:border-primary/45 transition-colors"
+          >
+            Baixar Currículo
+            <Download className="w-4 h-4" />
           </motion.a>
         </div>
 

@@ -7,19 +7,19 @@ const projects = [
     title: "Automação de Chamados",
     description: "Software com interface simples para o usuario resolver problemas recorrentes com um clique (ex.: \"resolver erro Y\", \"instalar impressoras\"), reduzindo o volume de tickets.",
     tags: ["PowerShell", "Python", "Automacao"],
-    github: "https://github.com/BrennoHS/",
+    github: "#",
   },
   {
     title: "Dashboard de Monitoramento",
     description: "Dashboard leve que centraliza status de servicos e disponibilidade em tempo real, com filtros rapidos e alertas visuais para priorizar incidentes.",
     tags: ["React", "API REST"],
-    github: "https://github.com/BrennoHS/",
+    github: "#",
   },
   {
-    title: "Web Scraper OLX",
-    description: "Web scraper da OLX que varre anuncios recentes e identifica oportunidades com melhor preco ao longo do dia. Integra notificacoes com Telegram e SMTP para alertas em tempo real.",
+    title: "Web Scraper de Oportunidades",
+    description: "Web scraper que varre anuncios recentes e identifica oportunidades com melhor preco ao longo do dia. Integra notificacoes com Telegram e SMTP para alertas em tempo real.",
     tags: ["Python", "Web Scraper", "Telegram", "SMTP"],
-    github: "https://github.com/BrennoHS/",
+    github: "#",
   },
 ];
 

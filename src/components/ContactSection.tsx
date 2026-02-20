@@ -3,7 +3,7 @@ import { Linkedin, Github, Mail } from "lucide-react";
 
 const links = [
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/brenn0henrique/" },
-  { icon: Github, label: "GitHub", href: "https://github.com/BrennoHS/" },
+  { icon: Github, label: "GitHub", href: "https://github.com/BrennoHS/portfolio-brenno" },
   { icon: Mail, label: "Email", href: "mailto:brenno-vivas@hotmail.com.br" },
 ];
 

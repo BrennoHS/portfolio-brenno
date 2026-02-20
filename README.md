@@ -1,32 +1,41 @@
-# Portfolio Brenno
+# Portfólio — Brenno Henrique
 
-Portfolio pessoal desenvolvido com React, TypeScript e Tailwind CSS.
+Portfólio pessoal com foco em experiência visual, animações suaves e apresentação de projetos, habilidades e trajetória profissional.
 
-## Stack
+## Tecnologias
 
-- Vite
 - React
 - TypeScript
+- Vite
 - Tailwind CSS
+- Framer Motion
 - shadcn/ui
 
-## Como rodar localmente
+## Rodando localmente
 
-```sh
+```bash
 npm install
 npm run dev
 ```
 
-## Scripts disponíveis
+Abra o endereço exibido no terminal (normalmente `http://localhost:5173`).
 
-- `npm run dev`: inicia o servidor de desenvolvimento
-- `npm run build`: gera o build de produção
-- `npm run preview`: pré-visualiza o build
-- `npm run lint`: executa o lint
-- `npm run test`: executa os testes com Vitest
+## Scripts
 
-## Estrutura principal
+- `npm run dev` — ambiente de desenvolvimento
+- `npm run build` — build de produção
+- `npm run preview` — pré-visualização do build
+- `npm run lint` — análise de lint
+- `npm run test` — testes com Vitest
 
-- `src/components`: seções e componentes da interface
-- `src/pages`: páginas da aplicação
-- `src/lib`: utilitários compartilhados
+## Estrutura
+
+- `src/components` — seções e componentes da interface
+- `src/pages` — páginas da aplicação
+- `src/assets` — imagens e arquivos estáticos
+
+## Contato
+
+- LinkedIn: [linkedin.com/in/brenn0henrique](https://www.linkedin.com/in/brenn0henrique/)
+- GitHub: [github.com/BrennoHS](https://github.com/BrennoHS)
+- E-mail: [brenno-vivas@hotmail.com.br](mailto:brenno-vivas@hotmail.com.br)
