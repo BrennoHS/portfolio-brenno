@@ -71,7 +71,7 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="section-subtitle mb-16 md:mb-20"
         >
-          Minha trajetória combina suporte técnico, visão de negócio e construção de produtos digitais com atenção aos detalhes.
+          Minha base em suporte técnico, operação e desenvolvimento me permite construir soluções digitais com foco real em desempenho, estabilidade e experiência.
         </motion.p>
 
         <div className="relative space-y-20 md:space-y-28">
@@ -86,7 +86,7 @@ const AboutSection = () => {
                 <p className="font-mono text-primary text-sm mb-2">01</p>
                 <h3 className="font-display text-2xl font-semibold mb-3 text-foreground">Apaixonado por tecnologia</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Desde criança fascinado por como as coisas funcionam. Hoje, transformo essa curiosidade em soluções reais.
+                  Sempre fui movido por entender sistemas de ponta a ponta. Hoje aplico essa curiosidade para criar soluções claras, resolver problemas e transformar necessidades do time em entregas práticas.
                 </p>
               </motion.div>
             </ParallaxItem>
@@ -115,9 +115,9 @@ const AboutSection = () => {
                 className="surface-card p-8 cursor-default"
               >
                 <p className="font-mono text-primary text-sm mb-2">02</p>
-                <h3 className="font-display text-2xl font-semibold mb-3 text-foreground">Apaixonado por jogos</h3>
+                <h3 className="font-display text-2xl font-semibold mb-3 text-foreground">Entusiasta de jogos</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Jogos me ensinaram estratégia, trabalho em equipe e resolução rápida de problemas sob pressão.
+                  O universo dos jogos reforçou meu raciocínio estratégico e tomada de decisão sob pressão — competências que levo para projetos com prazos curtos, incidentes e priorização constante.
                 </p>
               </motion.div>
             </ParallaxItem>
@@ -142,7 +142,7 @@ const AboutSection = () => {
                 <p className="font-mono text-primary text-sm mb-2">03</p>
                 <h3 className="font-display text-2xl font-semibold mb-3 text-foreground">Disciplina e foco</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  A academia me ensinou que resultados vêm com consistência. Aplico a mesma mentalidade no código.
+                  A rotina de treino me ensinou consistência, evolução incremental e foco em processo. No desenvolvimento, isso se traduz em melhoria contínua e qualidade de entrega.
                 </p>
               </motion.div>
             </ParallaxItem>
@@ -172,7 +172,7 @@ const AboutSection = () => {
               <p className="font-mono text-primary text-sm mb-2">04</p>
               <h3 className="font-display text-2xl font-semibold mb-3 text-foreground">Resolução de problemas é meu forte</h3>
               <p className="text-muted-foreground leading-relaxed">
-                4 anos resolvendo incidentes críticos em TI me deram a habilidade de diagnosticar e resolver qualquer desafio.
+                Com 4 anos atuando em incidentes e suporte de TI, desenvolvi uma abordagem analítica para diagnosticar causas raiz, agir rápido e manter ambientes estáveis.
               </p>
             </motion.div>
           </ParallaxItem>
